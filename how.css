@@ -1,0 +1,66 @@
+/*
+**************************************
+          HOW IT WORKS SECTION
+**************************************
+*/
+.section-how {
+  padding: 9.6rem 0;
+}
+
+.how-step-box {
+  font-size: 1.8rem;
+  color: #555;
+  line-height: 1.6;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 2rem; */
+  padding: 4.8rem 3.6rem;
+  border-radius: 11px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.how-icon {
+  width: 3.2rem;
+  height: 3.2rem;
+  margin-bottom: 2.4rem;
+  /* color: #333; */
+  color: #fff;
+}
+
+.how-step-box::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 6.4rem;
+  padding-bottom: 6.4rem;
+  border-radius: 50%;
+  /* background-color: rgba(209, 32, 38, 0.699); */
+  background-color: #d12027;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+
+  z-index: -1;
+}
+
+.step-number {
+  align-self: flex-start;
+  font-size: 3.6rem;
+  color: #aaa;
+  font-weight: 700;
+}
+
+.btn--how:link,
+.btn--how:visited {
+  background-color: #d12027;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.btn--how:hover,
+.btn--how:active {
+  background-color: #bc1d23;
+  transform: scale(1.03);
+}
