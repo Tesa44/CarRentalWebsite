@@ -1,0 +1,89 @@
+.section-features {
+  padding: 9.6rem 0;
+  background-color: #eee;
+}
+
+.car-box {
+  box-shadow: 0 0 2.4rem 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 11px;
+  overflow: hidden;
+}
+
+.car-content {
+  padding: 3.2rem;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.car-img {
+  width: 100%;
+}
+
+.car-name {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 3.2rem;
+}
+
+.features-list {
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  align-self: flex-start;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 2.4rem; */
+}
+
+.features-item {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+.feature-icon {
+  font-size: 2.4rem;
+  color: #d12027;
+}
+
+.car-price {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 2.4rem;
+}
+
+.car-price span {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #92161b;
+}
+
+.btn--features,
+.btn--features:link,
+.btn--features:visited {
+  padding: 1.4rem 2.4rem;
+  color: #fff;
+  background-color: #d12027;
+  font-weight: 500;
+  text-transform: none;
+  transition: all 0.3s ease;
+}
+
+.btn--features:hover,
+.btn--features:active {
+  background-color: #bc1d23;
+  transform: scale(1.03);
+}
+
+.text-center {
+  text-align: center;
+}
