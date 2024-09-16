@@ -1,0 +1,40 @@
+.section-about {
+  margin: 0 auto;
+  padding: 9.6rem 0;
+  background-image: linear-gradient(
+      to right,
+      rgba(33, 33, 33, 1),
+      rgba(33, 33, 33, 0)
+    ),
+    url(../img/about-office-2.jpg);
+  max-width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.about-text-box {
+  color: #fff;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.about-img {
+  width: 100%;
+}
+
+.about-slider {
+  position: relative;
+
+  /* overflow: hidden; */
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  /* height: 50vh; */
+
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
